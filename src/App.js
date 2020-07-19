@@ -1,17 +1,22 @@
 import React from 'react';
 import logo from './images/self_image.jpg';
 import './App.css';
+require('typeface-great-vibes')
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="website logo" />
-        <p>
-          Hi, my name is Blake. Welcome to this page. Starting initial changes...
+        <p 
+          className="App-title"
+        >
+          I'm Blake.
         </p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p 
+          className="App-body"
+        >
+          a designer, programmer, and enthusiast.
         </p>
         <a
           className="App-link"

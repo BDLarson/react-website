@@ -14,10 +14,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font: 400 calc(20px + 2vmin) 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);   
 }
 
 .App-link {
+  font: 400 calc(10px + 2vmin) sans-serif;
   color: #09d3ac;
 }
+
+.App-title {
+  font: 400 calc(30px + 2vmin) 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);   
+}
+
+.App-body {
+  font: 400 calc(10px + 2vmin) 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);   
+}
+
