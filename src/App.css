@@ -6,6 +6,7 @@
   height: 40vmin;
 }
 
+/* Image ONLY */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,6 +18,23 @@
   color: white;
 }
 
+/* Main text line ONLY */
+.App-title {
+  font: 400 calc(30px + 2vmin) 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);   
+}
+
+/* Secondary text area */
+.App-body {
+  font: 400 calc(10px + 2vmin) 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);   
+}
+
+/* Links ONLY */
 .App-link {
+  flex-direction: row;
+  font: 400 calc(10px + 2vmin) sans-serif;
   color: #09d3ac;
 }
